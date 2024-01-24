@@ -1,0 +1,112 @@
+h3{
+    margin: 1px;
+    font-size: 8px;
+    font-family: Arial;
+}
+
+p{
+    margin: 1px;
+    font-size: 8px;
+    font-family: Arial;
+}
+
+h3{
+    margin: 1px;
+    font-size: 10px;
+    font-weight: normal;
+    font-family: Arial;
+}   
+
+
+body {
+    background: #000000;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.post {
+    background-color: white;
+    width: 225px;
+    height: 450px;
+
+}
+
+.post-header{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.item1{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.item2{
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.item121 {
+    margin: 0px;
+} 
+
+.item11 {
+    margin: 3px;
+} 
+
+.img-container{
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.post-icon{
+    display: flex;
+    margin: 10px;
+}
+.item2 {
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+.p-i1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.25em;
+}
+.p-i2 {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.text1{
+    margin: 10px;
+}
+.text2{
+    margin: 10px;
+}
+
+/* {
+    border: 1px dashed red;
+    min-height: 10px;
+}
+
