@@ -80,6 +80,11 @@ img{
     display: flex;
     margin: 10px;
 }
+
+ion-icon:hover{
+    color: grey;
+}
+
 .item2 {
     margin: auto;
     max-width: 100%;
